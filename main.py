@@ -56,8 +56,8 @@ def main():
                 Credential.view()
 
 #             #Delete Account
-#             elif selections == 3:
-#                 Credential.delete(input("which account do you wish to delete ?"))
+            elif selections == 3:
+                Credential.delete(input("which account do you wish to delete ?"))
 
 #             elif selections == 4:
 #                 print("You are exiting")
