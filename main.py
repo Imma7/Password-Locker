@@ -39,10 +39,10 @@ def start():
 def main():
     print("Welcome to Password Locker")
     registered = start()
-#     if registered:
-#         registering = True
-#         while registering:
-#             selections = int(input("1. New Account\n2. View Accounts\n3. Delete Account\n4. Log Out"))
+    if registered:
+        registering = True
+        while registering:
+            selections = int(input("1. New Account\n2. View Accounts\n3. Delete Account\n4. Log Out"))
             
 #             #Create Account
 #             if selections == 1:
