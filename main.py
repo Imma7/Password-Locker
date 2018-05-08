@@ -2,7 +2,7 @@ import sys
 import random
 import string
 
-# from user import User
+from user import User
 # from credential import Credential
 
 # def passlen(l):
