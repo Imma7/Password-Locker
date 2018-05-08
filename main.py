@@ -3,11 +3,11 @@ import random
 import string
 
 from user import User
-# from credential import Credential
+from credential import Credential
 
-# def passlen(l):
-#     _all = string.ascii_letters+ string.punctuation+string.digits
-#     return "".join(random.sample(_all,l))
+def passlen(l):
+    _all = string.ascii_letters+ string.punctuation+string.digits
+    return "".join(random.sample(_all,l))
 
 # def sign_in():
 #     username = input("Select preferred user: ")
