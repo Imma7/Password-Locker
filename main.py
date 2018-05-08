@@ -14,12 +14,12 @@ def sign_in():
     password1 = input("Enter Password: ")
     password2 = input("Enter your password again: ")
 
-#     if password1 == password2:
-#         User(username, password1)
-#         return True
-#     else:
-#         print("Password does not match")
-#         sign_in()
+    if password1 == password2:
+        User(username, password1)
+        return True
+    else:
+        print("Password does not match")
+        sign_in()
 
 # def start():
 #     print("Start Here")
