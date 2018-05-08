@@ -44,15 +44,14 @@ def main():
         while registering:
             selections = int(input("1. New Account\n2. View Accounts\n3. Delete Account\n4. Log Out"))
             
-#             #Create Account
-#             if selections == 1:
-#                 # def create():
-#                     account = input("Enter account name: ")
-#                     name = input("Enter your username: ")
-#                     lenpass = int(input("Enter your password length: "))
-#                     password = passlen(lenpass)
-#                     Credential(account, name, password)
-#             #View Account
+            #Create Account
+            if selections == 1:
+                    account = input("Enter account name: ")
+                    name = input("Enter your username: ")
+                    lenpass = int(input("Enter your password length: "))
+                    password = passlen(lenpass)
+                    Credential(account, name, password)
+            #View Account
 #             elif selections == 2:
 #                 Credential.view()
 
