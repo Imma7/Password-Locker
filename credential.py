@@ -11,14 +11,14 @@ class Credential:
     def save(self):
         Credential.credential_list.append(self)
 
-    # def delete_account():
-    #     pass
-    # @classmethod
-    # def view(cls):
-    #     print("Existing Accounts: ")
-    #     print("|| Account Name ||  username || password ")
-    #     for i in cls.credential_list:
-    #         print(f" || {i['account']} || {i['username']} || {i['password']}")
+    def delete_account():
+        pass
+    @classmethod
+    def view(cls):
+        print("Existing Accounts: ")
+        print("|| Account Name ||  username || password ")
+        for i in cls.credential_list:
+            print(f" || {i['account']} || {i['username']} || {i['password']}")
 
     # def search_account():
     #     pass
