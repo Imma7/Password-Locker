@@ -36,9 +36,9 @@ def start():
             print("Select 1 or 2")
 
 
-# def main():
-#     print("Welcome to Password Locker")
-#     registered = start()
+def main():
+    print("Welcome to Password Locker")
+    registered = start()
 #     if registered:
 #         registering = True
 #         while registering:
