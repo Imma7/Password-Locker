@@ -1,5 +1,5 @@
 import sys
-# import random
+import random
 # import string
 
 # from user import User
