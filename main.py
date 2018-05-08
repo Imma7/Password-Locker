@@ -59,11 +59,11 @@ def main():
             elif selections == 3:
                 Credential.delete(input("which account do you wish to delete ?"))
 
-#             elif selections == 4:
+            elif selections == 4:
                 print("You are exiting")
                 registering = False
 
 
 
-# if __name__ == '__main__':
-#     main()
+if __name__ == '__main__':
+    main()
