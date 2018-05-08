@@ -52,8 +52,8 @@ def main():
                     password = passlen(lenpass)
                     Credential(account, name, password)
             #View Account
-#             elif selections == 2:
-#                 Credential.view()
+            elif selections == 2:
+                Credential.view()
 
 #             #Delete Account
 #             elif selections == 3:
