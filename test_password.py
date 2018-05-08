@@ -17,15 +17,23 @@ class TestUser(unittest.TestCase):
         self.assertEqual(self.new_account.password, "1234")
 
     
-
-
 # Second class for Credentials
 from user import Credentials
 
 class TestCredentials(unittest.TestCase):
 
     def setUp(self):
-        
+        self.user_credential = Credentials("GitHub", "Imma", "1234") 
+    
+    def test_init(self):
+        self.assertEqual(self.user_credential.account_name, "GitHub")
+        self.assertEqual(self.user_credential.username, "Imma")
+        self.assertEqual(self.user_credential.password, "1234")
+
+if __name__ == '__main__':
+    unittest.main()
+
+
     
 
 
