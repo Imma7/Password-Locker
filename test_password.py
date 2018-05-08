@@ -22,7 +22,10 @@ class TestUser(unittest.TestCase):
 # Second class for Credentials
 from user import Credentials
 
-class TestCredentials(unittest.TestCase)
+class TestCredentials(unittest.TestCase):
+
+    def setUp(self):
+        
     
 
 
