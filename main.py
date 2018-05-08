@@ -60,8 +60,8 @@ def main():
                 Credential.delete(input("which account do you wish to delete ?"))
 
 #             elif selections == 4:
-#                 print("You are exiting")
-#                 registering = False
+                print("You are exiting")
+                registering = False
 
 
 
