@@ -8,6 +8,9 @@ class Credential:
         self.password = password
         Credential.credential_list.append({'account':self.account, 'username':self.username, 'password':self.password})
 
+    def save(self):
+        Credential.credential_list.append(self)
+
     def delete_account():
         pass
     @classmethod
