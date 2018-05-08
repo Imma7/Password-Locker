@@ -21,11 +21,11 @@ def sign_in():
         print("Password does not match")
         sign_in()
 
-# def start():
-#     print("Start Here")
-#     options = True
-#     while options:
-#         inp = int(input("1. Sign In \n2. Leave"))
+def start():
+    print("Start Here")
+    options = True
+    while options:
+        inp = int(input("1. Sign In \n2. Leave"))
 #         if inp == 1:
 #             return sign_in()
 #             options = False
