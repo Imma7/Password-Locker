@@ -6,5 +6,5 @@ class User:
         User.user = {"name":self.name, "password":self.password}
 
     @classmethod
-    def return_user(cls):
-        return cls.user
+    # def return_user(cls):
+    #     return cls.user
