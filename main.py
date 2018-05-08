@@ -1,6 +1,6 @@
 import sys
 import random
-# import string
+import string
 
 # from user import User
 # from credential import Credential
